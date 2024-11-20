@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+main {
+    align-items: center;
+    margin: 180px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    top: 300px;
+    font-size: 49px;
+    left: 801px;
+    gap: 0px;
+    opacity: 0px;
+    color: #161A49;
+
+
+}
+
+p {
+    color: #4B505A;
+    width: 493px;
+    height: 99px;
+    top: 553px;
+    left: 801px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+a {
+    width: 79px;
+    height: 21px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    gap: 0px;
+    margin: 10px 0 0 30px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+a:hover {
+    color: green;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+
+.botão-sing-up {
+    width: 79px;
+    height: 30px;
+    background: #6FBF44;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    gap: 0px;
+    margin: 10px 0 0 30px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+
+
+}
+
+.botão-sing-up:hover {
+
+    opacity: 0.6;
+    transition: ease-in-out 0.5s;
+}
+
+.botão-sing-up:active {
+    opacity: 0.9;
+}
+
+.botão-learn-more {
+    background-color: transparent;
+    color: #6FBF44;
+    border: none;
+    cursor: pointer;
+
+}
+
+.botão-learn-more:hover {
+    opacity: 0.4;
+    transition: ease-in-out 0.6s;
+}
+
+img {
+    width: 590px;
+    height: 450px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+
+}
+
+@media screen and (max-width:800px) {
+    body {
+        width: 100%;
+        height: 50%;
+        display: block;
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+
+    a {
+        display: none;
+    }
+
+    .botão-sing-up {
+        display: block;
+        width: 200px;
+        height: 100px;
+        font-size: 30px;
+
+    }
+
+    img {
+        position: static;
+        width: 750px;
+        height: 800px;
+        padding: 80px;
+
+    }
+
+    h1 {
+        font-size: 50px;
+   
+        width: 400px;
+        
+        text-align: center;
+    }
+    p {
+        width: 100vw;
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
